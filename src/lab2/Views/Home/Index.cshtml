@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form sp-controller="Home" asp-action="PostId" method="post">
+        <p>ОПИСАНИЕ ЗАДАЧИ<Br>
+        <textarea name="description" cols="60" rows="5"></textarea></p>
+        <p><input type="submit" value="Получить идентификатор задачи"></p>
+    </form>
+</div>
+@* 
+<div class="text-center">
+    <h1 class="display-4">Введите description</h1>
+    <textarea name="description" cols="60" rows="5"></textarea></p>
+    <p><input type="submit" value="Получить id"></p>
+</div> *@
